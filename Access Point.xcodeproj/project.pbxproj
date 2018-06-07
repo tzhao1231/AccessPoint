@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18DE338320A8CA100007C205 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 18DE338220A8CA100007C205 /* main.c */; };
+		18DE338B20A8CAF50007C205 /* ap.c in Sources */ = {isa = PBXBuildFile; fileRef = 18DE338A20A8CAF50007C205 /* ap.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1867411C20C039D800F5141F /* prism.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prism.h; sourceTree = "<group>"; };
 		18DE337F20A8CA100007C205 /* Access Point */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Access Point"; sourceTree = BUILT_PRODUCTS_DIR; };
-		18DE338220A8CA100007C205 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		18DE338920A8CAF50007C205 /* ap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ap.h; sourceTree = "<group>"; };
+		18DE338A20A8CAF50007C205 /* ap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ap.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,9 @@
 		18DE338120A8CA100007C205 /* Access Point */ = {
 			isa = PBXGroup;
 			children = (
-				18DE338220A8CA100007C205 /* main.c */,
+				18DE338920A8CAF50007C205 /* ap.h */,
+				18DE338A20A8CAF50007C205 /* ap.c */,
+				1867411C20C039D800F5141F /* prism.h */,
 			);
 			path = "Access Point";
 			sourceTree = "<group>";
@@ -119,7 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18DE338320A8CA100007C205 /* main.c in Sources */,
+				18DE338B20A8CAF50007C205 /* ap.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
